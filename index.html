@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu primera aventura Pokémon</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <a class="logo" href="#">POKÉ<span>AVENTURA</span></a>
+            <a class="nav-link" href="#iniciales">Conoce a los iniciales</a>
+        </nav>
+
+        <div class="hero-content">
+            <p class="eyebrow">REGIÓN DE KANTO · GENERACIÓN I</p>
+            <h1>Tu aventura<br><span>comienza aquí.</span></h1>
+            <p class="intro">Tres compañeros, tres estilos de combate y una gran aventura por delante. ¿A quién elegirías como tu primer Pokémon?</p>
+            <a class="button" href="#iniciales">Elegir compañero <span>↓</span></a>
+        </div>
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+        <div class="hero-ball"><span></span></div>
+    </header>
+
+    <main>
+        <section class="section-heading" id="iniciales">
+            <p class="eyebrow">ELIGE A TU COMPAÑERO</p>
+            <h2>Conoce a los tres iniciales</h2>
+            <p>Cada uno tiene fortalezas diferentes. No existe una elección incorrecta: todo depende de cómo quieras vivir tu aventura.</p>
+        </section>
+
+        <section class="starter-grid">
+            <article class="starter-card grass">
+                <div class="card-top">
+                    <span class="number">N.º 001</span>
+                    <span class="type">PLANTA</span>
+                </div>
+                <div class="pokemon-art">
+                    <img src="imagenes/bulbasaur.png" alt="Ilustración de Bulbasaur">
+                </div>
+                <div class="card-content">
+                    <h3>Bulbasaur</h3>
+                    <p class="subtitle">El compañero de tipo Planta</p>
+                    <p>Un Pokémon tranquilo y resistente que lleva una semilla en su espalda. Con el tiempo, esa semilla crece y se convierte en una gran flor.</p>
+                    <div class="traits">
+                        <span>Resistencia</span><span>Estrategia</span><span>Planta / Veneno</span>
+                    </div>
+                    <div class="recommendation">
+                        <h4>¿Por qué elegirlo?</h4>
+                        <p>Es una gran opción si prefieres comenzar con ventaja frente a los primeros desafíos de Kanto. Sus movimientos de planta ayudan a controlar los combates y ofrece un inicio equilibrado.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="starter-card fire">
+                <div class="card-top">
+                    <span class="number">N.º 004</span>
+                    <span class="type">FUEGO</span>
+                </div>
+                <div class="pokemon-art">
+                    <img src="imagenes/charmander.png" alt="Ilustración de Charmander">
+                </div>
+                <div class="card-content">
+                    <h3>Charmander</h3>
+                    <p class="subtitle">El compañero de tipo Fuego</p>
+                    <p>Un Pokémon curioso y valiente cuya cola mantiene una llama encendida. Su fuego refleja su energía y su espíritu de lucha.</p>
+                    <div class="traits">
+                        <span>Velocidad</span><span>Ofensiva</span><span>Fuego</span>
+                    </div>
+                    <div class="recommendation">
+                        <h4>¿Por qué elegirlo?</h4>
+                        <p>Es ideal si te gustan los combates ofensivos y quieres desarrollar a un compañero que evoluciona en Charmeleon y después en el poderoso Charizard. Su comienzo puede ser más retador.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="starter-card water">
+                <div class="card-top">
+                    <span class="number">N.º 007</span>
+                    <span class="type">AGUA</span>
+                </div>
+                <div class="pokemon-art">
+                    <img src="imagenes/squirtle.png" alt="Ilustración de Squirtle">
+                </div>
+                <div class="card-content">
+                    <h3>Squirtle</h3>
+                    <p class="subtitle">El compañero de tipo Agua</p>
+                    <p>Una pequeña tortuga que se protege con su caparazón y puede lanzar potentes chorros de agua. Es ágil y confiable durante la aventura.</p>
+                    <div class="traits">
+                        <span>Equilibrio</span><span>Defensa</span><span>Agua</span>
+                    </div>
+                    <div class="recommendation">
+                        <h4>¿Por qué elegirlo?</h4>
+                        <p>Es una excelente alternativa si buscas un inicio equilibrado y un compañero resistente. Sus ataques de agua son útiles contra Pokémon de tipo Roca y Fuego.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="guide">
+            <div>
+                <p class="eyebrow">TU ESTILO DE JUEGO</p>
+                <h2>¿Cuál va contigo?</h2>
+                <p>Piensa en la forma en que te gusta jugar y elige al compañero que mejor represente tu estrategia.</p>
+            </div>
+            <div class="guide-list">
+                <div><span class="guide-icon leaf">✦</span><p><strong>Bulbasaur</strong><br>Si te gusta resistir y jugar con estrategia.</p></div>
+                <div><span class="guide-icon flame">✦</span><p><strong>Charmander</strong><br>Si prefieres atacar y aceptar un reto inicial.</p></div>
+                <div><span class="guide-icon drop">✦</span><p><strong>Squirtle</strong><br>Si buscas equilibrio y una buena defensa.</p></div>
+            </div>
+        </section>
+
+        <section class="closing">
+            <p class="eyebrow">LA DECISIÓN ES TUYA</p>
+            <h2>¡Toda gran aventura<br>necesita un gran compañero!</h2>
+            <p>Prepara tus Poké Balls, explora Kanto y crea tu propia historia.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto escolar de desarrollo web · HTML5 y CSS</p>
+        <p class="disclaimer">Sitio web de fans sin afiliación oficial con Nintendo, Game Freak o The Pokémon Company.</p>
+    </footer>
+</body>
+</html>
